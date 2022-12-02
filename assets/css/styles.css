@@ -1,0 +1,113 @@
+
+body{
+    background-color: rgb(220, 220, 220);
+
+}
+
+
+a.navbar-brand{
+    margin-left: 15px;
+    padding: 8px;
+    background-color: rgb(92, 207, 188);
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    
+    
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255)
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    color: rgb(92, 207, 188);
+}
+
+h2 {
+    font-family: 'Times New Roman';
+    color: rgb(92, 207, 188);
+}
+
+h3 {
+    font-family: 'Times New Roman';
+    color: rgb(92, 207, 188);
+}
+
+
+.container-box {
+    background-color: #ffffff;
+    padding: 70px;
+    margin: 50px;
+}
+
+
+.nav-link.active{
+    background-color: grey;
+    height: 47px
+}
+
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(92, 207, 188);
+  }
+
+  img{
+    float: "left";
+    width:100%;
+    height:100%;
+  }
+  
+.vizualization {
+  width:50%;
+  height:50%;
+}
+  
+.title{
+    margin: 0 20px 0 20px;
+    color: rgb(92, 207, 188);
+
+}
+
+.box{
+    background-color: #ffffff;
+    padding: 70px;
+    margin: 50px;
+}
+
+.container{
+    display: in-line "block";
+}
+
+.table{
+    width:100%;
+}
+
+@media (max-width: 992px) {
+        .navbar {
+            color: rgb(92, 207, 188);
+          max-height: none;
+          padding: inherit;
+        }
+
+        .navbar-expand-lg{
+            color: rgb(92, 207, 188)
+        }
+
+        a.navbar-brand{
+            margin-left: 15px;
+            padding: 8px;
+            background-color: rgb(92, 207, 188);
+            font-display: rgb(255, 255, 255);
+            font-family: 'Times New Roman';
+            font-size: 30px;
+        }
+
+
+        body{
+            background-color: rgb(255, 255, 255);
+        
+        }
+          
+
+}

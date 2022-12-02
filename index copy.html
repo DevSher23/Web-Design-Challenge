@@ -23,7 +23,7 @@
 <body>
   <!-- Start of navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/index.html">Latitide</a>
+    <a class="navbar-brand" href="index.html">Latitide</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,10 @@
             Plots
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/visualizations/temp.html">Max Temperature</a>
-            <a class="dropdown-item" href="/visualizations/humidity.html">Humidity</a>
-            <a class="dropdown-item" href="/visualizations/cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="/visualizations/wind.html">Windspeed</a>
+            <a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a>
+            <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+            <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="visualizations/wind.html">Windspeed</a>
           </ul>
         <li class="nav-item">
           <a class="nav-link" href="comparison.html">Comparison</a>
@@ -58,50 +58,55 @@
 
   <!-- Start of container -->
   <div class="container-box">
+    <br>
     <div class="row">
-      <div class="col-md-7 col-12">
+      <div class="col-md-7 col col-12">
+        <br>
         <h2>Summary: Latitude vs. X</h2>
         <div>
           <hr>
-            <img src="assets/images/Fig1.png" alt="Latitude vs Temperature" width="250"
-              class="vizualization rounded float-left">
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-              accomplish this analysis
-              we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-            <p>After assembling the dataset we used Matplotlib to plot various aspects of the weather vs. latitude.
-              Factors we looked at included:
-              temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations
-              created as part of the analysis,
-              as well as explanations and descriptions of any trends and correlations witnessed.</p>
+          <img src="assets/images/Fig1.png" alt="Latitude vs Temperature" width="250" class="floatLeft">
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
+            accomplish this analysis
+            we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+          <p>After assembling the dataset we used Matplotlib to plot various aspects of the weather vs. latitude.
+            Factors we looked at included:
+            temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations
+            created as part of the analysis,
+            as well as explanations and descriptions of any trends and correlations witnessed.</p>
         </div>
       </div>
       <div class="col-md-5">
-        <div class="container">
-          <h2>Visualizations</h2>
-          <hr>
-          <div class="row">
-            <div class="col-md-6">
-              <a target="_blank" href="visualizations/temp.html">
-                <img src="assets/images/Fig1.png" alt="Latitude vs. Temperature" width="200">
-              </a>
-            </div>
-            <div class="col-md-6">
-              <a target="_blank" href="visualizations/humidity.html">
-                <img src="assets/images/Fig2.png" alt="Latitude vs. Humidity " width="200">
-              </a>
-            </div>
+         <img src="https://www.google.com/logos/2022/lawson/r1130/cta.gif" alt="Example">
+      </div>
+    </div>
+    <!-- Start of Visualizations imageNav Area -->
+
+    <div class="col col-md-12 col-md-6" style="text-align: center">
+      <br>
+      <div class="container">
+        <h2>Visualizations</h2>
+        <hr>
+        <div class="row">
+          <div class="col col-3 col-md-6">
+            <a target="_blank" href="visualizations/temp.html">
+              <img src="assets/images/Fig1.png" alt="Latitude vs. Temperature" width="200">
+            </a>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <a target="_blank" href="visualizations/cloudiness.html">
-                <img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness " width="200">
-              </a>
-            </div>
-            <div class="col-md-6">
-              <a target="_blank" href="visualizations/wind.html">
-                <img src="assets/images/Fig4.png" alt="Latitude vs. Humidity " width="200">
-              </a>
-            </div>
+          <div class="col col-3 col-md-6">
+            <a target="_blank" href="visualizations/humidity.html">
+              <img src="assets/images/Fig2.png" alt="Latitude vs. Humidity " width="200">
+            </a>
+          </div>
+          <div class="col col-3 col-md-6">
+            <a target="_blank" href="visualizations/cloudiness.html">
+              <img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness " width="200">
+            </a>
+          </div>
+          <div class="col col-3 col-md-6">
+            <a target="_blank" href="visualizations/wind.html">
+              <img src="assets/images/Fig4.png" alt="Latitude vs. Humidity " width="200">
+            </a>
           </div>
         </div>
       </div>
