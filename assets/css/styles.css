@@ -4,15 +4,12 @@ body{
 
 }
 
-
 a.navbar-brand{
     margin-left: -5px;
     padding: 8px;
     background-color: rgb(92, 207, 188);
     font-family: 'Times New Roman';
-    
     font-size: 30px;
-    
     
 }
 
@@ -37,14 +34,14 @@ h3 {
 
 
 .container-box {
-    background-color: #ffffff;
+    background-color: white;
     padding: 70px;
     margin: 50px;
 }
 
 
 .nav-link.active{
-    background-color: grey;
+    background-color: white;
     height: 47px
 }
 
@@ -68,7 +65,7 @@ h3 {
 }
 
 .box{
-    background-color: #ffffff;
+    background-color: white;
     padding: 70px;
     margin: 50px;
 }
@@ -82,21 +79,22 @@ h3 {
 }
 
 @media (max-width: 992px) {
+
         .navbar {
             color: rgb(92, 207, 188);
           max-height: none;
           padding: inherit;
         }
 
+
         .navbar-expand-lg{
-            color: rgb(92, 207, 188)
+            background-color: rgb(92, 207, 188)
         }
 
         a.navbar-brand{
             margin-left: 15px;
             padding: 8px;
             background-color: rgb(92, 207, 188);
-            font-display: rgb(255, 255, 255);
             font-family: 'Times New Roman';
             font-size: 30px;
         }
